@@ -1,8 +1,7 @@
 #!/usr/bin/python
 import sys
-n = sys.argv[0]
-i = len(n)
+i = len(sys.argv[0])
 if i == 0:
   print('usage: python3 solution.py PARAM')
 elif i != 0:
-  print(n)
+  print(sys.argv[0])
