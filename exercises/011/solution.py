@@ -1,3 +1,3 @@
 #!/usr/bin/python
-
-print('Hello World\n'*100)
+for i in range(100):
+    print('Hello World')
