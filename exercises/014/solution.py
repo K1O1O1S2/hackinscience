@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import sys
 n = sys.argv[0]
 i = len(n)
 if i == 0:
