@@ -1,6 +1,5 @@
 #!/usr/bin/python
 import math
-
-
 def sqrt(num):
-    print(math.sqrt(num)**0.5)
+    num = num**0.5
+    print(num)
