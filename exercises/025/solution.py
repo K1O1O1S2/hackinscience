@@ -1,10 +1,3 @@
 #!/usr/bin/python
-import time
 import datetime
-n = datetime.datetime.now()
-d = datetime.date.today()
-h = n.hour, n.minute, n.second
-print("Today is")
-print(d)
-print("and it is")
-print(h)
+print(now.strftime("Today is %Y-%m-%d and it is %H:%M:%S"))
