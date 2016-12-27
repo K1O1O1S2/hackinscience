@@ -1,3 +1,4 @@
 #!/usr/bin/python
+import math
 def sqrt(num):
-    print(abs(num)**0.5)
+    print(math.sqrt(num)**0.5)
