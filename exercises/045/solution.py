@@ -1,3 +1,3 @@
 #!/usr/bin/python
 def sqrt(num):
-    print(num**0.5)
+    print(abs(num)**0.5)
