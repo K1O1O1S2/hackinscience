@@ -2,4 +2,4 @@
 import string
 n = string.ascii_lowercase
 m = n.replace('mn', 'nm')
-print(n)
+print(m)
